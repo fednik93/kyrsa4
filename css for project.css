@@ -17,14 +17,36 @@ h1 {
 }
 nav a {
     display: block;
+    padding: 12px;
+    font-size: 18px;
     background: #f1c40f;
     color: #1e1e2f;
-    padding: 12px;
-    margin: 10px;
-    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+
 }
 nav a:hover {
     background: #d4ac0d;
+}
+.footer {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 14px;
+    color: #bbb;
+}
+.section {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.section h2 {
+    color: #f1c40f;
+    font-size: 22px;
+}
+
+.section p {
+    color: #d1d1d1;
+    font-size: 15px;
 }
